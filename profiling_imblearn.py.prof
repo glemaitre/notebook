@@ -1,0 +1,4608 @@
+events: Hits
+
+fl=(1) /build/glibc-cxyGtm/glibc-2.24/dlfcn/dlerror.c
+fn=(1) _dlerror_run
+cfl=(2) /build/glibc-cxyGtm/glibc-2.24/elf/dl-error.c
+cfn=(2) _dl_catch_error
+calls=1 187
+163 1
+
+fl=(3) /build/glibc-cxyGtm/glibc-2.24/dlfcn/dlopen.c
+fn=(3) dlopen_doit
+cfl=(4) /build/glibc-cxyGtm/glibc-2.24/elf/dl-open.c
+cfn=(4) _dl_open
+calls=1 660
+66 1
+
+fl=(3)
+fn=(5) __dlopen
+cfl=(1)
+cfn=(1)
+calls=1 163
+87 1
+
+fl=(5) /build/glibc-cxyGtm/glibc-2.24/elf/dl-addr.c
+fn=(6) determine_info
+61 1
+
+fl=(2)
+fn=(2)
+cfl=(3)
+cfn=(3)
+calls=1 66
+187 1
+
+fl=(2)
+fn=(2)
+cfl=(4)
+cfn=(7) dl_open_worker
+calls=1 575
+187 1
+
+fl=(6) /build/glibc-cxyGtm/glibc-2.24/elf/dl-init.c
+fn=(8) call_init
+cfl=(6)
+cfn=(9) call_init.part.0
+calls=1 72
+30 1
+
+fl=(6)
+fn=(9)
+cfl=??
+cfn=(10) _Init_MKL_Loader
+calls=1 0
+72 1
+
+fl=(4)
+fn=(7)
+cfl=(6)
+cfn=(8)
+calls=1 30
+575 1
+
+fl=(4)
+fn=(4)
+cfl=(2)
+cfn=(2)
+calls=1 187
+660 1
+
+fl=(7) /build/glibc-cxyGtm/glibc-2.24/io/../sysdeps/unix/sysv/linux/wordsize-64/xstat.c
+fn=(11) __GI___xstat
+35 1
+
+fl=(8) /build/glibc-cxyGtm/glibc-2.24/math/../sysdeps/ieee754/dbl-64/e_log.c
+fn=(12) __ieee754_log_avx
+78 1
+
+fl=(8)
+fn=(12)
+187 1
+
+fl=(8)
+fn=(12)
+207 1
+
+fl=(9) /build/glibc-cxyGtm/glibc-2.24/math/../sysdeps/ieee754/dbl-64/e_pow.c
+fn=(13) __ieee754_pow_sse2
+70 1
+
+fl=(9)
+fn=(13)
+74 3
+
+fl=(10) /build/glibc-cxyGtm/glibc-2.24/math/../sysdeps/ieee754/dbl-64/wordsize-64/s_finite.c
+fn=(14) __GI___finite
+28 1
+
+fl=(11) /build/glibc-cxyGtm/glibc-2.24/math/../sysdeps/x86_64/fpu/ftestexcept.c
+fn=(15) __GI_fetestexcept
+31 3
+
+fl=(12) /build/glibc-cxyGtm/glibc-2.24/math/w_pow.c
+fn=(16) __pow
+cfl=(9)
+cfn=(13)
+calls=1 70
+27 1
+
+fl=(12)
+fn=(16)
+cfl=(9)
+cfn=(13)
+calls=3 74
+27 3
+
+fl=(12)
+fn=(16)
+28 3
+
+fl=(12)
+fn=(16)
+59 1
+
+fl=(12)
+fn=(16)
+73 4
+
+fl=(13) /build/glibc-cxyGtm/glibc-2.24/nptl/../sysdeps/unix/sysv/linux/x86_64/pthread_cond_signal.S
+fn=(17) __pthread_cond_signal
+45 1
+
+fl=(13)
+fn=(17)
+126 1
+
+fl=(14) /build/glibc-cxyGtm/glibc-2.24/nptl/pthread_create.c
+fn=(18) start_thread
+cfl=??
+cfn=(19) unknown
+calls=17 0
+456 17
+
+fl=(15) /build/glibc-cxyGtm/glibc-2.24/nptl/pthread_mutex_unlock.c
+fn=(20) __pthread_mutex_unlock_usercnt[inline]
+55 1
+
+fl=(15)
+fn=(21) __GI___pthread_mutex_unlock
+cfl=(15)
+cfn=(20)
+calls=1 55
+324 1
+
+fl=(16) /build/glibc-cxyGtm/glibc-2.24/nptl/sem_post.c
+fn=(22) __new_sem_post
+56 1
+
+fl=(17) /build/glibc-cxyGtm/glibc-2.24/string/../sysdeps/x86_64/multiarch/../multiarch/memmove-vec-unaligned-erms.S
+fn=(23) __memcpy_sse2_unaligned_erms
+295 1
+
+fl=(18) /build/glibc-cxyGtm/glibc-2.24/string/../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+fn=(24) __memmove_avx_unaligned_erms
+336 1
+
+fl=(18)
+fn=(24)
+337 1
+
+fl=(18)
+fn=(24)
+480 1
+
+fl=(18)
+fn=(24)
+516 1
+
+fl=(19) /home/ilan/minonda/conda-bld/numpy_1489893786204/work/numpy-1.12.1/numpy/core/include/numpy/ndarraytypes.h
+fn=(25) PyArray_NDIM[inline]
+1440 1
+
+fl=(19)
+fn=(26) PyArray_DESCR[inline]
+1488 1
+
+fl=(20) /home/ilan/minonda/conda-bld/numpy_1489893786204/work/numpy-1.12.1/numpy/core/src/multiarray/alloc.c
+fn=(27) _npy_alloc_cache[inline]
+38 2
+
+fl=(20)
+fn=(28) npy_alloc_cache
+cfl=(20)
+cfn=(27)
+calls=2 38
+69 2
+
+fl=(21) /home/ilan/minonda/conda-bld/numpy_1489893786204/work/numpy-1.12.1/numpy/core/src/multiarray/array_assign_array.c
+fn=(29) raw_array_assign_array
+37 1
+
+fl=(21)
+fn=(29)
+45 1
+
+fl=(21)
+fn=(29)
+cfl=(18)
+cfn=(24)
+calls=1 336
+96 1
+
+fl=(21)
+fn=(29)
+cfl=(18)
+cfn=(24)
+calls=1 480
+96 1
+
+fl=(21)
+fn=(29)
+cfl=(18)
+cfn=(24)
+calls=1 337
+96 1
+
+fl=(21)
+fn=(29)
+cfl=(18)
+cfn=(24)
+calls=1 516
+96 1
+
+fl=(21)
+fn=(29)
+98 2
+
+fl=(21)
+fn=(29)
+cfl=(22) /home/ilan/minonda/conda-bld/python_1490230359189/work/Python-3.6.1/Python/ceval.c
+cfn=(30) PyEval_RestoreThread
+calls=1 368
+102 1
+
+fl=(21)
+fn=(29)
+cfl=(22)
+cfn=(30)
+calls=1 362
+102 1
+
+fl=(21)
+fn=(31) PyArray_AssignArray
+cfl=(21)
+cfn=(29)
+calls=1 45
+351 1
+
+fl=(21)
+fn=(31)
+cfl=(21)
+cfn=(29)
+calls=1 37
+351 1
+
+fl=(21)
+fn=(31)
+cfl=(21)
+cfn=(29)
+calls=2 98
+351 2
+
+fl=(21)
+fn=(31)
+cfl=(21)
+cfn=(29)
+calls=2 102
+351 2
+
+fl=(21)
+fn=(31)
+cfl=(21)
+cfn=(29)
+calls=4 96
+351 4
+
+fl=(23) /home/ilan/minonda/conda-bld/numpy_1489893786204/work/numpy-1.12.1/numpy/core/src/multiarray/arrayobject.c
+fn=(32) PyArray_CopyObject
+cfl=(21)
+cfn=(31)
+calls=8 351
+330 8
+
+fl=(23)
+fn=(33) array_dealloc
+cfl=(24) /home/ilan/minonda/conda-bld/numpy_1489893786204/work/numpy-1.12.1/numpy/core/src/multiarray/buffer.c
+cfn=(34) _array_dealloc_buffer_info
+calls=1 771
+381 1
+
+fl=(23)
+fn=(33)
+cfl=(24)
+cfn=(34)
+calls=14 776
+381 14
+
+fl=(23)
+fn=(33)
+cfl=(24)
+cfn=(34)
+calls=1 778
+381 1
+
+fl=(23)
+fn=(35) array_alloc
+cfl=(25) /home/ilan/minonda/conda-bld/python_1490230359189/work/Python-3.6.1/Objects/obmalloc.c
+cfn=(36) _PyObject_Alloc
+calls=1 1284
+1780 1
+
+fl=(24)
+fn=(37) _buffer_clear_info[inline]
+cfl=(26) /home/ilan/minonda/conda-bld/python_1490230359189/work/Python-3.6.1/Objects/longobject.c
+cfn=(38) PyLong_FromUnsignedLong
+calls=3 315
+609 3
+
+fl=(24)
+fn=(37)
+cfl=(27) /home/ilan/minonda/conda-bld/python_1490230359189/work/Python-3.6.1/Objects/dictobject.c
+cfn=(39) PyDict_GetItem
+calls=1 1408
+610 1
+
+fl=(24)
+fn=(37)
+cfl=(27)
+cfn=(39)
+calls=5 1413
+610 5
+
+fl=(24)
+fn=(37)
+cfl=(27)
+cfn=(39)
+calls=2 1437
+610 2
+
+fl=(24)
+fn=(37)
+cfl=(25)
+cfn=(40) _PyObject_Free
+calls=2 1467
+620 2
+
+fl=(24)
+fn=(37)
+620 1
+
+fl=(24)
+fn=(34)
+cfl=(28) /home/ilan/minonda/conda-bld/python_1490230359189/work/Python-3.6.1/Python/errors.c
+cfn=(41) PyErr_Occurred
+calls=1 163
+771 1
+
+fl=(24)
+fn=(34)
+cfl=(24)
+cfn=(37)
+calls=8 610
+776 8
+
+fl=(24)
+fn=(34)
+cfl=(24)
+cfn=(37)
+calls=3 620
+776 3
+
+fl=(24)
+fn=(34)
+cfl=(24)
+cfn=(37)
+calls=3 609
+776 3
+
+fl=(24)
+fn=(34)
+778 1
+
+fl=(29) /home/ilan/minonda/conda-bld/numpy_1489893786204/work/numpy-1.12.1/numpy/core/src/multiarray/common.c
+fn=(42) _array_find_python_scalar_type
+94 1
+
+fl=(29)
+fn=(43) _IsAligned
+cfl=(19)
+cfn=(26)
+calls=1 1488
+646 1
+
+fl=(30) /home/ilan/minonda/conda-bld/numpy_1489893786204/work/numpy-1.12.1/numpy/core/src/multiarray/conversion_utils.c
+fn=(44) PyArray_PyIntAsIntp_ErrMsg
+cfl=(31) /home/ilan/minonda/conda-bld/python_1490230359189/work/Python-3.6.1/Objects/typeobject.c
+cfn=(45) PyType_IsSubtype
+calls=1 1365
+813 1
+
+fl=(30)
+fn=(44)
+cfl=(32) /home/ilan/minonda/conda-bld/python_1490230359189/work/Python-3.6.1/Objects/abstract.c
+cfn=(46) PyNumber_Index
+calls=4 1230
+848 4
+
+fl=(30)
+fn=(47) PyArray_IntTupleFromIntp
+cfl=(33) /home/ilan/minonda/conda-bld/python_1490230359189/work/Python-3.6.1/Objects/tupleobject.c
+cfn=(48) PyTuple_New
+calls=1 80
+1158 1
+
+fl=(34) /home/ilan/minonda/conda-bld/numpy_1489893786204/work/numpy-1.12.1/numpy/core/src/multiarray/convert_datatype.c
+fn=(49) PyArray_AdaptFlexibleDType
+362 1
+
+fl=(34)
+fn=(50) PyArray_ResultType
+cfl=(19)
+cfn=(25)
+calls=1 1440
+1690 1
+
+fl=(34)
+fn=(50)
+1868 1
+
+fl=(35) /home/ilan/minonda/conda-bld/numpy_1489893786204/work/numpy-1.12.1/numpy/core/src/multiarray/ctors.c
+fn=(51) PyArray_NewFromDescr_int
+cfl=(23)
+cfn=(35)
+calls=1 1780
+990 1
+
+fl=(35)
+fn=(51)
+cfl=(17)
+cfn=(23)
+calls=1 295
+1022 1
+
+fl=(35)
+fn=(51)
+cfl=(20)
+cfn=(28)
+calls=2 69
+1058 2
+
+fl=(35)
+fn=(51)
+1060 1
+
+fl=(35)
+fn=(51)
+cfl=(36) /home/ilan/minonda/conda-bld/numpy_1489893786204/work/numpy-1.12.1/numpy/core/src/multiarray/flagsobject.c
+cfn=(52) PyArray_UpdateFlags
+calls=1 87
+1082 1
+
+fl=(35)
+fn=(51)
+cfl=(36)
+cfn=(52)
+calls=1 67
+1082 1
+
+fl=(35)
+fn=(53) PyArray_NewFromDescr
+cfl=(35)
+cfn=(51)
+calls=2 1058
+1142 2
+
+fl=(35)
+fn=(53)
+cfl=(35)
+cfn=(51)
+calls=2 1082
+1142 2
+
+fl=(35)
+fn=(53)
+1142 2
+
+fl=(35)
+fn=(53)
+cfl=(35)
+cfn=(51)
+calls=1 1022
+1142 1
+
+fl=(35)
+fn=(53)
+cfl=(35)
+cfn=(51)
+calls=1 990
+1142 1
+
+fl=(35)
+fn=(53)
+cfl=(35)
+cfn=(51)
+calls=1 1060
+1142 1
+
+fl=(35)
+fn=(54) PyArray_GetArrayParamsFromObject
+cfl=(29)
+cfn=(42)
+calls=1 94
+1471 1
+
+fl=(35)
+fn=(55) PyArray_FromAny
+cfl=(35)
+cfn=(54)
+calls=1 1471
+1693 1
+
+fl=(35)
+fn=(55)
+cfl=(34)
+cfn=(49)
+calls=1 362
+1702 1
+
+fl=(35)
+fn=(55)
+cfl=(35)
+cfn=(53)
+calls=4 1142
+1763 4
+
+fl=(35)
+fn=(56) PyArray_FromArray
+1890 1
+
+fl=(35)
+fn=(56)
+2049 1
+
+fl=(36)
+fn=(52)
+cfl=(29)
+cfn=(43)
+calls=1 646
+67 1
+
+fl=(36)
+fn=(52)
+87 1
+
+fl=(37) /home/ilan/minonda/conda-bld/numpy_1489893786204/work/numpy-1.12.1/numpy/core/src/multiarray/mapping.c
+fn=(57) prepare_index
+cfl=(31)
+cfn=(45)
+calls=1 1357
+351 1
+
+fl=(37)
+fn=(57)
+cfl=(30)
+cfn=(44)
+calls=1 813
+353 1
+
+fl=(37)
+fn=(57)
+cfl=(30)
+cfn=(44)
+calls=4 848
+353 4
+
+fl=(37)
+fn=(58) get_view_from_index
+774 1
+
+fl=(37)
+fn=(58)
+cfl=(35)
+cfn=(53)
+calls=2 1142
+842 2
+
+fl=(37)
+fn=(58)
+842 1
+
+fl=(37)
+fn=(58)
+849 1
+
+fl=(37)
+fn=(59) array_item
+cfl=(38) /home/ilan/minonda/conda-bld/numpy_1489893786204/work/numpy-1.12.1/numpy/core/src/multiarray/scalarapi.c
+cfn=(60) PyArray_Scalar
+calls=1 698
+1243 1
+
+fl=(37)
+fn=(59)
+cfl=(38)
+cfn=(60)
+calls=1 696
+1243 1
+
+fl=(37)
+fn=(61) array_subscript
+1453 1
+
+fl=(37)
+fn=(61)
+cfl=(37)
+cfn=(57)
+calls=1 351
+1486 1
+
+fl=(37)
+fn=(61)
+cfl=(37)
+cfn=(57)
+calls=5 353
+1486 5
+
+fl=(37)
+fn=(61)
+cfl=(37)
+cfn=(58)
+calls=1 849
+1534 1
+
+fl=(37)
+fn=(61)
+cfl=(37)
+cfn=(58)
+calls=1 842
+1534 1
+
+fl=(37)
+fn=(62) array_assign_subscript
+cfl=(37)
+cfn=(58)
+calls=1 774
+1949 1
+
+fl=(37)
+fn=(62)
+cfl=(37)
+cfn=(58)
+calls=2 842
+1949 2
+
+fl=(37)
+fn=(62)
+cfl=(23)
+cfn=(32)
+calls=8 330
+1960 8
+
+fl=(37)
+fn=(62)
+2119 1
+
+fl=(39) /home/ilan/minonda/conda-bld/numpy_1489893786204/work/numpy-1.12.1/numpy/core/src/multiarray/methods.c
+fn=(63) forward_ndarray_method[inline]
+cfl=(32)
+cfn=(64) PyObject_Call
+calls=1 2246
+101 1
+
+fl=(39)
+fn=(65) array_any
+cfl=(39)
+cfn=(63)
+calls=1 101
+2085 1
+
+fl=(40) /home/ilan/minonda/conda-bld/numpy_1489893786204/work/numpy-1.12.1/numpy/core/src/multiarray/multiarraymodule.c
+fn=(66) PyArray_MultiplyList
+113 1
+
+fl=(40)
+fn=(67) PyArray_CompareLists
+169 1
+
+fl=(40)
+fn=(68) PyArray_ConcatenateArrays
+cfl=(21)
+cfn=(31)
+calls=2 351
+449 2
+
+fl=(40)
+fn=(69) PyArray_Concatenate
+cfl=(40)
+cfn=(68)
+calls=2 449
+618 2
+
+fl=(40)
+fn=(70) array_concatenate
+cfl=(40)
+cfn=(69)
+calls=2 618
+2127 2
+
+fl=(41) /home/ilan/minonda/conda-bld/numpy_1489893786204/work/numpy-1.12.1/numpy/core/src/multiarray/nditer_constr.c
+fn=(71) NpyIter_AdvancedNew
+cfl=(41)
+cfn=(72) npyiter_prepare_operands
+calls=1 1193
+216 1
+
+fl=(41)
+fn=(73) npyiter_prepare_one_operand[inline]
+1068 1
+
+fl=(41)
+fn=(72)
+cfl=(41)
+cfn=(73)
+calls=1 1068
+1193 1
+
+fl=(38)
+fn=(60)
+cfl=(42) /home/ilan/minonda/conda-bld/numpy_1489893786204/work/numpy-1.12.1/numpy/core/src/multiarray/scalartypes.c.src
+cfn=(74) gentype_alloc
+calls=1 130
+696 1
+
+fl=(38)
+fn=(60)
+698 1
+
+fl=(42)
+fn=(74)
+130 1
+
+fl=(43) /home/ilan/minonda/conda-bld/numpy_1489893786204/work/numpy-1.12.1/numpy/core/src/npymath/ieee754.c.src
+fn=(75) npy_get_floatstatus
+cfl=(11)
+cfn=(15)
+calls=3 31
+622 3
+
+fl=(43)
+fn=(76) npy_clear_floatstatus
+632 1
+
+fl=(43)
+fn=(76)
+cfl=(43)
+cfn=(75)
+calls=3 622
+634 3
+
+fl=(43)
+fn=(76)
+641 1
+
+fl=(44) /home/ilan/minonda/conda-bld/numpy_1489893786204/work/numpy-1.12.1/numpy/core/src/umath/loops.c.src
+fn=(77) DOUBLE_subtract
+cfl=(45) /home/ilan/minonda/conda-bld/numpy_1489893786204/work/numpy-1.12.1/numpy/core/src/umath/simd.inc.src
+cfn=(78) run_binary_simd_subtract_DOUBLE[inline]
+calls=1 205
+1622 1
+
+fl=(44)
+fn=(77)
+cfl=(45)
+cfn=(78)
+calls=3 204
+1622 3
+
+fl=(46) /home/ilan/minonda/conda-bld/numpy_1489893786204/work/numpy-1.12.1/numpy/core/src/umath/reduction.c
+fn=(79) PyUFunc_ReduceWrapper
+cfl=(41)
+cfn=(71)
+calls=1 216
+511 1
+
+fl=(47) /home/ilan/minonda/conda-bld/numpy_1489893786204/work/numpy-1.12.1/numpy/core/src/umath/scalarmath.c.src
+fn=(80) _long_convert_to_ctype
+cfl=(25)
+cfn=(40)
+calls=1 1467
+638 1
+
+fl=(47)
+fn=(81) _long_convert2_to_ctypes[inline]
+cfl=(47)
+cfn=(80)
+calls=1 638
+721 1
+
+fl=(47)
+fn=(82) long_divmod
+cfl=(47)
+cfn=(81)
+calls=1 721
+830 1
+
+fl=(47)
+fn=(82)
+cfl=(43)
+cfn=(76)
+calls=1 634
+852 1
+
+fl=(47)
+fn=(82)
+cfl=(43)
+cfn=(76)
+calls=1 641
+852 1
+
+fl=(47)
+fn=(82)
+cfl=(43)
+cfn=(76)
+calls=1 632
+852 1
+
+fl=(45)
+fn=(78)
+204 3
+
+fl=(45)
+fn=(78)
+cfl=(45)
+cfn=(83) sse2_binary_subtract_DOUBLE[inline]
+calls=1 439
+205 1
+
+fl=(45)
+fn=(83)
+cfl=(48) /usr/lib/gcc/x86_64-redhat-linux6E/4.4.7/include/emmintrin.h
+cfn=(84) _mm_store_pd[inline]
+calls=1 148
+439 1
+
+fl=(49) /home/ilan/minonda/conda-bld/numpy_1489893786204/work/numpy-1.12.1/numpy/core/src/umath/ufunc_object.c
+fn=(85) PyUFunc_clearfperr[inline]
+cfl=(43)
+cfn=(76)
+calls=2 634
+237 2
+
+fl=(49)
+fn=(86) get_global_ext_obj
+252 1
+
+fl=(49)
+fn=(87) _get_bufsize_errmask[inline]
+cfl=(49)
+cfn=(86)
+calls=1 252
+273 1
+
+fl=(49)
+fn=(88) _find_array_prepare.clone.0
+cfl=(31)
+cfn=(45)
+calls=1 1364
+328 1
+
+fl=(49)
+fn=(89) get_ufunc_arguments
+791 1
+
+fl=(49)
+fn=(89)
+cfl=(35)
+cfn=(56)
+calls=1 1890
+808 1
+
+fl=(49)
+fn=(89)
+cfl=(35)
+cfn=(56)
+calls=1 2049
+808 1
+
+fl=(49)
+fn=(89)
+cfl=(50) /home/ilan/minonda/conda-bld/python_1490230359189/work/Python-3.6.1/Python/modsupport.c
+cfn=(90) Py_BuildValue
+calls=2 436
+816 2
+
+fl=(49)
+fn=(89)
+cfl=(35)
+cfn=(55)
+calls=1 1693
+824 1
+
+fl=(49)
+fn=(89)
+cfl=(35)
+cfn=(55)
+calls=1 1763
+824 1
+
+fl=(49)
+fn=(89)
+cfl=(33)
+cfn=(91) tupledealloc
+calls=1 237
+826 1
+
+fl=(49)
+fn=(89)
+1212 1
+
+fl=(49)
+fn=(92) trivial_three_operand_loop
+1299 1
+
+fl=(49)
+fn=(92)
+cfl=(40)
+cfn=(66)
+calls=1 113
+1309 1
+
+fl=(49)
+fn=(92)
+cfl=(44)
+cfn=(77)
+calls=4 1622
+1321 4
+
+fl=(49)
+fn=(93) execute_legacy_ufunc_loop[inline]
+cfl=(51) /home/ilan/minonda/conda-bld/numpy_1489893786204/work/numpy-1.12.1/numpy/core/src/umath/ufunc_type_resolution.c
+cfn=(94) PyUFunc_DefaultLegacyInnerLoopSelector
+calls=1 1346
+1543 1
+
+fl=(49)
+fn=(93)
+cfl=(40)
+cfn=(67)
+calls=1 169
+1601 1
+
+fl=(49)
+fn=(93)
+cfl=(35)
+cfn=(53)
+calls=3 1142
+1614 3
+
+fl=(49)
+fn=(93)
+cfl=(49)
+cfn=(92)
+calls=1 1309
+1649 1
+
+fl=(49)
+fn=(93)
+cfl=(49)
+cfn=(92)
+calls=1 1299
+1649 1
+
+fl=(49)
+fn=(93)
+cfl=(49)
+cfn=(92)
+calls=4 1321
+1649 4
+
+fl=(49)
+fn=(95) PyUFunc_GenericFunction
+cfl=(49)
+cfn=(89)
+calls=1 1212
+2566 1
+
+fl=(49)
+fn=(95)
+cfl=(49)
+cfn=(89)
+calls=1 826
+2566 1
+
+fl=(49)
+fn=(95)
+2566 1
+
+fl=(49)
+fn=(95)
+cfl=(49)
+cfn=(89)
+calls=2 816
+2566 2
+
+fl=(49)
+fn=(95)
+cfl=(49)
+cfn=(89)
+calls=2 808
+2566 2
+
+fl=(49)
+fn=(95)
+cfl=(49)
+cfn=(89)
+calls=1 791
+2566 1
+
+fl=(49)
+fn=(95)
+cfl=(49)
+cfn=(89)
+calls=2 824
+2566 2
+
+fl=(49)
+fn=(95)
+cfl=(49)
+cfn=(87)
+calls=1 273
+2581 1
+
+fl=(49)
+fn=(95)
+cfl=(51)
+cfn=(96) PyUFunc_SimpleBinaryOperationTypeResolver
+calls=1 461
+2588 1
+
+fl=(49)
+fn=(95)
+cfl=(51)
+cfn=(97) PyUFunc_SubtractionTypeResolver
+calls=1 793
+2588 1
+
+fl=(49)
+fn=(95)
+cfl=(51)
+cfn=(97)
+calls=1 788
+2588 1
+
+fl=(49)
+fn=(95)
+cfl=(49)
+cfn=(88)
+calls=1 328
+2625 1
+
+fl=(49)
+fn=(95)
+cfl=(49)
+cfn=(85)
+calls=2 237
+2637 2
+
+fl=(49)
+fn=(95)
+cfl=(49)
+cfn=(93)
+calls=1 1601
+2650 1
+
+fl=(49)
+fn=(95)
+cfl=(49)
+cfn=(93)
+calls=6 1649
+2650 6
+
+fl=(49)
+fn=(95)
+cfl=(49)
+cfn=(93)
+calls=1 1543
+2650 1
+
+fl=(49)
+fn=(95)
+cfl=(49)
+cfn=(93)
+calls=3 1614
+2650 3
+
+fl=(49)
+fn=(98) PyUFunc_Reduce[inline]
+cfl=(46)
+cfn=(79)
+calls=1 511
+3058 1
+
+fl=(49)
+fn=(99) PyUFunc_GenericReduction
+cfl=(49)
+cfn=(98)
+calls=1 3058
+4078 1
+
+fl=(49)
+fn=(100) ufunc_generic_call
+cfl=(49)
+cfn=(95)
+calls=3 2588
+4339 3
+
+fl=(49)
+fn=(100)
+cfl=(49)
+cfn=(95)
+calls=2 2637
+4339 2
+
+fl=(49)
+fn=(100)
+cfl=(49)
+cfn=(95)
+calls=10 2566
+4339 10
+
+fl=(49)
+fn=(100)
+cfl=(49)
+cfn=(95)
+calls=1 2625
+4339 1
+
+fl=(49)
+fn=(100)
+cfl=(49)
+cfn=(95)
+calls=11 2650
+4339 11
+
+fl=(49)
+fn=(100)
+cfl=(49)
+cfn=(95)
+calls=1 2581
+4339 1
+
+fl=(49)
+fn=(100)
+cfl=(23)
+cfn=(33)
+calls=3 381
+4364 3
+
+fl=(51)
+fn=(96)
+cfl=(34)
+cfn=(50)
+calls=1 1690
+461 1
+
+fl=(51)
+fn=(96)
+cfl=(34)
+cfn=(50)
+calls=1 1868
+461 1
+
+fl=(51)
+fn=(97)
+788 1
+
+fl=(51)
+fn=(97)
+cfl=(51)
+cfn=(96)
+calls=1 461
+793 1
+
+fl=(51)
+fn=(94)
+1346 1
+
+fl=(52) /home/ilan/minonda/conda-bld/numpy_1489893786204/work/numpy-1.12.1/numpy/random/mtrand/mtrand.c
+fn=(101) __pyx_f_6mtrand_cont0_array
+cfl=(53) /home/ilan/minonda/conda-bld/numpy_1489893786204/work/numpy-1.12.1/numpy/random/mtrand/randomkit.c
+cfn=(102) rk_gauss
+calls=3 618
+6215 3
+
+fl=(52)
+fn=(101)
+cfl=(53)
+cfn=(102)
+calls=1 613
+6215 1
+
+fl=(52)
+fn=(101)
+cfl=(53)
+cfn=(102)
+calls=1 611
+6215 1
+
+fl=(52)
+fn=(101)
+cfl=(53)
+cfn=(102)
+calls=2 612
+6215 2
+
+fl=(52)
+fn=(103) __pyx_f_6mtrand_cont2_array_sc
+cfl=(52)
+cfn=(104) __Pyx_PyObject_Call
+calls=1 44237
+7252 1
+
+fl=(52)
+fn=(103)
+cfl=(22)
+cfn=(105) PyEval_SaveThread
+calls=1 355
+7264 1
+
+fl=(52)
+fn=(103)
+cfl=(22)
+cfn=(30)
+calls=1 370
+7288 1
+
+fl=(52)
+fn=(103)
+cfl=(52)
+cfn=(104)
+calls=1 44237
+7301 1
+
+fl=(52)
+fn=(106) __pyx_pw_6mtrand_11RandomState_27uniform
+cfl=(52)
+cfn=(107) __pyx_pf_6mtrand_11RandomState_26uniform[inline]
+calls=3 19189
+19139 3
+
+fl=(52)
+fn=(106)
+cfl=(52)
+cfn=(107)
+calls=6 19589
+19139 6
+
+fl=(52)
+fn=(106)
+cfl=(52)
+cfn=(107)
+calls=2 19208
+19139 2
+
+fl=(52)
+fn=(106)
+cfl=(52)
+cfn=(107)
+calls=1 19174
+19139 1
+
+fl=(52)
+fn=(106)
+cfl=(52)
+cfn=(107)
+calls=4 19304
+19139 4
+
+fl=(52)
+fn=(106)
+cfl=(52)
+cfn=(107)
+calls=1 19253
+19139 1
+
+fl=(52)
+fn=(107)
+cfl=(35)
+cfn=(55)
+calls=1 1763
+19174 1
+
+fl=(52)
+fn=(107)
+cfl=(35)
+cfn=(55)
+calls=2 1763
+19189 2
+
+fl=(52)
+fn=(107)
+cfl=(35)
+cfn=(55)
+calls=1 1702
+19189 1
+
+fl=(52)
+fn=(107)
+cfl=(54) /home/ilan/minonda/conda-bld/python_1490230359189/work/Python-3.6.1/Objects/object.c
+cfn=(108) PyObject_RichCompare
+calls=2 719
+19208 2
+
+fl=(52)
+fn=(107)
+cfl=(10)
+cfn=(14)
+calls=1 28
+19253 1
+
+fl=(52)
+fn=(107)
+cfl=(52)
+cfn=(103)
+calls=1 7301
+19304 1
+
+fl=(52)
+fn=(107)
+cfl=(52)
+cfn=(103)
+calls=1 7288
+19304 1
+
+fl=(52)
+fn=(107)
+cfl=(52)
+cfn=(103)
+calls=1 7264
+19304 1
+
+fl=(52)
+fn=(107)
+cfl=(52)
+cfn=(103)
+calls=1 7252
+19304 1
+
+fl=(52)
+fn=(107)
+cfl=(23)
+cfn=(33)
+calls=6 381
+19589 6
+
+fl=(52)
+fn=(109) __pyx_pw_6mtrand_11RandomState_31randn
+cfl=(52)
+cfn=(110) __pyx_pf_6mtrand_11RandomState_30randn[inline]
+calls=7 19843
+19750 7
+
+fl=(52)
+fn=(110)
+cfl=(52)
+cfn=(111) __Pyx_PyObject_CallOneArg
+calls=7 44299
+19843 7
+
+fl=(52)
+fn=(112) __pyx_pw_6mtrand_11RandomState_35standard_normal
+cfl=(52)
+cfn=(113) __pyx_pf_6mtrand_11RandomState_34standard_normal[inline]
+calls=7 20368
+20344 7
+
+fl=(52)
+fn=(113)
+cfl=(52)
+cfn=(101)
+calls=7 6215
+20368 7
+
+fl=(52)
+fn=(104)
+cfl=(55) /home/ilan/minonda/conda-bld/python_1490230359189/work/Python-3.6.1/Objects/methodobject.c
+cfn=(114) PyCFunction_Call
+calls=1 114
+44237 1
+
+fl=(52)
+fn=(104)
+cfl=(55)
+cfn=(114)
+calls=7 98
+44237 7
+
+fl=(52)
+fn=(104)
+cfl=(32)
+cfn=(115) _Py_CheckFunctionResult
+calls=1 2178
+44237 1
+
+fl=(52)
+fn=(116) __Pyx__PyObject_CallOneArg[inline]
+cfl=(52)
+cfn=(104)
+calls=7 44237
+44276 7
+
+fl=(52)
+fn=(111)
+cfl=(52)
+cfn=(116)
+calls=7 44276
+44299 7
+
+fl=(53)
+fn=(117) rk_random
+245 1
+
+fl=(53)
+fn=(118) rk_double
+cfl=(53)
+cfn=(117)
+calls=1 245
+517 1
+
+fl=(53)
+fn=(118)
+517 1
+
+fl=(53)
+fn=(102)
+611 1
+
+fl=(53)
+fn=(102)
+cfl=(53)
+cfn=(118)
+calls=2 517
+612 2
+
+fl=(53)
+fn=(102)
+613 1
+
+fl=(53)
+fn=(102)
+cfl=(8)
+cfn=(12)
+calls=1 78
+618 1
+
+fl=(53)
+fn=(102)
+cfl=(8)
+cfn=(12)
+calls=1 187
+618 1
+
+fl=(53)
+fn=(102)
+cfl=(8)
+cfn=(12)
+calls=1 207
+618 1
+
+fl=(56) /home/ilan/minonda/conda-bld/python_1490230359189/work/Python-3.6.1/./Modules/_collectionsmodule.c
+fn=(119) _count_elements
+cfl=(32)
+cfn=(120) PyIter_Next
+calls=1 3146
+2289 1
+
+fl=(56)
+fn=(119)
+cfl=(27)
+cfn=(121) insertdict
+calls=1 1123
+2311 1
+
+fl=(57) /home/ilan/minonda/conda-bld/python_1490230359189/work/Python-3.6.1/./Modules/_io/clinic/fileio.c.h
+fn=(122) _io_FileIO___init__
+cfl=(58) /home/ilan/minonda/conda-bld/python_1490230359189/work/Python-3.6.1/./Modules/_io/fileio.c
+cfn=(123) _io_FileIO___init___impl[inline]
+calls=1 442
+63 1
+
+fl=(58)
+fn=(123)
+cfl=(22)
+cfn=(105)
+calls=1 355
+442 1
+
+fl=(59) /home/ilan/minonda/conda-bld/python_1490230359189/work/Python-3.6.1/./Modules/_threadmodule.c
+fn=(124) lock_PyThread_release_lock
+cfl=(60) /home/ilan/minonda/conda-bld/python_1490230359189/work/Python-3.6.1/Python/thread_pthread.h
+cfn=(125) PyThread_release_lock
+calls=1 394
+181 1
+
+fl=(61) /home/ilan/minonda/conda-bld/python_1490230359189/work/Python-3.6.1/./Modules/clinic/posixmodule.c.h
+fn=(126) os_stat
+cfl=(62) /home/ilan/minonda/conda-bld/python_1490230359189/work/Python-3.6.1/Python/getargs.c
+cfn=(127) _PyArg_ParseStack_SizeT
+calls=1 1509
+46 1
+
+fl=(61)
+fn=(126)
+cfl=(63) /home/ilan/minonda/conda-bld/python_1490230359189/work/Python-3.6.1/./Modules/posixmodule.c
+cfn=(128) os_stat_impl[inline]
+calls=1 2419
+50 1
+
+fl=(63)
+fn=(129) posix_do_stat
+cfl=(64) /usr/include/sys/stat.h
+cfn=(130) stat[inline]
+calls=1 436
+2073 1
+
+fl=(63)
+fn=(128)
+cfl=(63)
+cfn=(129)
+calls=1 2073
+2419 1
+
+fl=(65) /home/ilan/minonda/conda-bld/python_1490230359189/work/Python-3.6.1/./Python/dynload_shlib.c
+fn=(131) _PyImport_FindSharedFuncptr
+cfl=(3)
+cfn=(5)
+calls=1 87
+95 1
+
+fl=(66) /home/ilan/minonda/conda-bld/python_1490230359189/work/Python-3.6.1/./Python/importdl.c
+fn=(132) _PyImport_LoadDynamicModuleWithSpec
+cfl=(65)
+cfn=(131)
+calls=1 95
+124 1
+
+fl=(66)
+fn=(132)
+cfl=(67) /home/lemaitre/Documents/code/toolbox/scikit-learn/sklearn/metrics/pairwise_fast.c
+cfn=(133) PyInit_pairwise_fast
+calls=1 20552
+154 1
+
+fl=(66)
+fn=(132)
+cfl=(68) /home/ilan/minonda/conda-bld/python_1490230359189/work/Python-3.6.1/Modules/mmapmodule.c
+cfn=(134) PyInit_mmap
+calls=1 1468
+154 1
+
+fl=(66)
+fn=(132)
+cfl=(69) /home/ilan/minonda/conda-bld/scipy_1489399120100/work/scipy-0.19.0/scipy/sparse/csgraph/_tools.c
+cfn=(135) PyInit__tools
+calls=1 8455
+154 1
+
+fl=(70) /home/ilan/minonda/conda-bld/python_1490230359189/work/Python-3.6.1/Modules/gcmodule.c
+fn=(136) visit_decref
+372 1
+
+fl=(70)
+fn=(137) subtract_refs[inline]
+cfl=(33)
+cfn=(138) tupletraverse
+calls=1 571
+399 1
+
+fl=(70)
+fn=(139) visit_reachable
+408 2
+
+fl=(70)
+fn=(140) move_unreachable[inline]
+cfl=(71) /home/ilan/minonda/conda-bld/python_1490230359189/work/Python-3.6.1/Objects/funcobject.c
+cfn=(141) func_traverse
+calls=1 551
+486 1
+
+fl=(70)
+fn=(140)
+cfl=(27)
+cfn=(142) dict_traverse
+calls=1 3045
+486 1
+
+fl=(70)
+fn=(143) collect
+cfl=(70)
+cfn=(137)
+calls=1 399
+956 1
+
+fl=(70)
+fn=(143)
+cfl=(70)
+cfn=(140)
+calls=2 486
+965 2
+
+fl=(70)
+fn=(144) collect_with_callback[inline]
+cfl=(70)
+cfn=(143)
+calls=2 965
+1128 2
+
+fl=(70)
+fn=(144)
+cfl=(70)
+cfn=(143)
+calls=1 956
+1128 1
+
+fl=(70)
+fn=(145) collect_generations[inline]
+cfl=(70)
+cfn=(144)
+calls=3 1128
+1151 3
+
+fl=(70)
+fn=(146) _PyObject_GC_Alloc
+cfl=(25)
+cfn=(36)
+calls=1 1395
+1714 1
+
+fl=(70)
+fn=(146)
+cfl=(70)
+cfn=(145)
+calls=3 1151
+1726 3
+
+fl=(70)
+fn=(147) _PyObject_GC_New
+cfl=(70)
+cfn=(146)
+calls=1 1714
+1748 1
+
+fl=(70)
+fn=(148) _PyObject_GC_NewVar
+cfl=(70)
+cfn=(146)
+calls=2 1726
+1765 2
+
+fl=(68)
+fn=(149) setint
+cfl=(27)
+cfn=(150) PyDict_SetItemString
+calls=1 3359
+1433 1
+
+fl=(68)
+fn=(134)
+cfl=(68)
+cfn=(149)
+calls=1 1433
+1468 1
+
+fl=(32)
+fn=(151) binary_op1
+cfl=(32)
+cfn=(152) PyObject_CallFunctionObjArgs
+calls=1 2804
+780 1
+
+fl=(32)
+fn=(151)
+cfl=(47)
+cfn=(82)
+calls=3 852
+780 3
+
+fl=(32)
+fn=(151)
+cfl=(32)
+cfn=(152)
+calls=15 2811
+780 15
+
+fl=(32)
+fn=(151)
+cfl=(47)
+cfn=(82)
+calls=1 830
+780 1
+
+fl=(32)
+fn=(151)
+cfl=(32)
+cfn=(152)
+calls=1 2804
+786 1
+
+fl=(32)
+fn=(151)
+cfl=(32)
+cfn=(152)
+calls=18 2811
+786 18
+
+fl=(32)
+fn=(153) binary_op[inline]
+cfl=(32)
+cfn=(151)
+calls=20 780
+809 20
+
+fl=(32)
+fn=(154) PyNumber_Subtract
+cfl=(32)
+cfn=(153)
+calls=16 809
+909 16
+
+fl=(32)
+fn=(155) PyNumber_Divmod
+cfl=(32)
+cfn=(153)
+calls=4 809
+910 4
+
+fl=(32)
+fn=(156) PyNumber_Multiply
+cfl=(32)
+cfn=(151)
+calls=19 786
+946 19
+
+fl=(32)
+fn=(46)
+cfl=(26)
+cfn=(157) PyLong_FromLong
+calls=1 296
+1230 1
+
+fl=(32)
+fn=(46)
+cfl=(26)
+cfn=(157)
+calls=1 239
+1230 1
+
+fl=(32)
+fn=(46)
+cfl=(26)
+cfn=(157)
+calls=2 254
+1230 2
+
+fl=(32)
+fn=(46)
+1250 1
+
+fl=(32)
+fn=(158) PyNumber_AsSsize_t
+cfl=(32)
+cfn=(46)
+calls=1 1250
+1259 1
+
+fl=(32)
+fn=(115)
+2178 1
+
+fl=(32)
+fn=(115)
+cfl=(28)
+cfn=(41)
+calls=2 164
+2178 2
+
+fl=(32)
+fn=(64)
+cfl=(32)
+cfn=(159) _PyObject_Call_Prepend
+calls=253 2358
+2246 253
+
+fl=(32)
+fn=(64)
+cfl=(71)
+cfn=(160) function_call
+calls=1 604
+2246 1
+
+fl=(32)
+fn=(161) _PyStack_AsTuple
+cfl=(33)
+cfn=(48)
+calls=1 114
+2259 1
+
+fl=(32)
+fn=(161)
+cfl=(33)
+cfn=(48)
+calls=1 76
+2259 1
+
+fl=(32)
+fn=(162) _PyObject_FastCallDict
+cfl=(22)
+cfn=(163) _PyFunction_FastCallDict
+calls=284 4982
+2295 284
+
+fl=(32)
+fn=(162)
+cfl=(22)
+cfn=(163)
+calls=18 5031
+2295 18
+
+fl=(32)
+fn=(162)
+cfl=(32)
+cfn=(161)
+calls=2 2259
+2311 2
+
+fl=(32)
+fn=(162)
+cfl=(49)
+cfn=(100)
+calls=28 4339
+2316 28
+
+fl=(32)
+fn=(162)
+cfl=(31)
+cfn=(164) slot_tp_call
+calls=158 6167
+2316 158
+
+fl=(32)
+fn=(162)
+cfl=(32)
+cfn=(159)
+calls=1 2358
+2316 1
+
+fl=(32)
+fn=(162)
+cfl=(31)
+cfn=(165) type_call
+calls=6 895
+2316 6
+
+fl=(32)
+fn=(162)
+cfl=(49)
+cfn=(100)
+calls=3 4364
+2316 3
+
+fl=(32)
+fn=(162)
+cfl=(31)
+cfn=(165)
+calls=94 915
+2316 94
+
+fl=(32)
+fn=(162)
+cfl=(32)
+cfn=(115)
+calls=1 2178
+2319 1
+
+fl=(32)
+fn=(159)
+cfl=(32)
+cfn=(162)
+calls=256 2295
+2358 256
+
+fl=(32)
+fn=(166) _PyObject_FastCallKeywords
+cfl=(32)
+cfn=(162)
+calls=9 2316
+2480 9
+
+fl=(32)
+fn=(167) objargs_mkstack
+2684 1
+
+fl=(32)
+fn=(167)
+2697 1
+
+fl=(32)
+fn=(168) _PyObject_CallMethodIdObjArgs
+cfl=(32)
+cfn=(162)
+calls=45 2295
+2780 45
+
+fl=(32)
+fn=(152)
+cfl=(32)
+cfn=(167)
+calls=1 2684
+2804 1
+
+fl=(32)
+fn=(152)
+cfl=(32)
+cfn=(167)
+calls=1 2697
+2804 1
+
+fl=(32)
+fn=(152)
+cfl=(32)
+cfn=(162)
+calls=1 2319
+2811 1
+
+fl=(32)
+fn=(152)
+cfl=(32)
+cfn=(162)
+calls=1 2311
+2811 1
+
+fl=(32)
+fn=(152)
+cfl=(32)
+cfn=(162)
+calls=32 2316
+2811 32
+
+fl=(32)
+fn=(120)
+cfl=(72) /home/ilan/minonda/conda-bld/python_1490230359189/work/Python-3.6.1/Objects/iterobject.c
+cfn=(169) iter_iternext
+calls=1 63
+3146 1
+
+fl=(73) /home/ilan/minonda/conda-bld/python_1490230359189/work/Python-3.6.1/Objects/bytesobject.c
+fn=(170) bytes_compare_eq[inline]
+1545 1
+
+fl=(73)
+fn=(171) bytes_richcompare
+cfl=(73)
+cfn=(170)
+calls=1 1545
+1608 1
+
+fl=(74) /home/ilan/minonda/conda-bld/python_1490230359189/work/Python-3.6.1/Objects/codeobject.c
+fn=(172) intern_strings
+53 1
+
+fl=(74)
+fn=(173) PyCode_New
+cfl=(74)
+cfn=(172)
+calls=1 53
+138 1
+
+fl=(27)
+fn=(174) dk_get_index[inline]
+320 1
+
+fl=(27)
+fn=(175) new_dict_with_shared_keys
+cfl=(25)
+cfn=(36)
+calls=1 1395
+609 1
+
+fl=(27)
+fn=(176) lookdict
+cfl=(54)
+cfn=(177) PyObject_RichCompareBool
+calls=1 741
+725 1
+
+fl=(27)
+fn=(176)
+726 1
+
+fl=(27)
+fn=(176)
+735 1
+
+fl=(27)
+fn=(176)
+cfl=(27)
+cfn=(174)
+calls=1 320
+750 1
+
+fl=(27)
+fn=(178) lookdict_unicode
+815 1
+
+fl=(27)
+fn=(179) lookdict_unicode_nodummy
+880 1
+
+fl=(27)
+fn=(121)
+cfl=(27)
+cfn=(176)
+calls=1 726
+1123 1
+
+fl=(27)
+fn=(121)
+1175 1
+
+fl=(27)
+fn=(39)
+1408 1
+
+fl=(27)
+fn=(39)
+cfl=(26)
+cfn=(180) long_hash
+calls=1 2998
+1413 1
+
+fl=(27)
+fn=(39)
+cfl=(26)
+cfn=(180)
+calls=1 3003
+1413 1
+
+fl=(27)
+fn=(39)
+cfl=(26)
+cfn=(180)
+calls=2 2997
+1413 2
+
+fl=(27)
+fn=(39)
+cfl=(54)
+cfn=(181) PyObject_Hash
+calls=1 762
+1413 1
+
+fl=(27)
+fn=(39)
+cfl=(75) /home/ilan/minonda/conda-bld/python_1490230359189/work/Python-3.6.1/Python/pystate.c
+cfn=(182) _PyThreadState_UncheckedGet
+calls=1 512
+1425 1
+
+fl=(27)
+fn=(39)
+cfl=(27)
+cfn=(176)
+calls=1 735
+1437 1
+
+fl=(27)
+fn=(39)
+cfl=(27)
+cfn=(179)
+calls=1 880
+1437 1
+
+fl=(27)
+fn=(39)
+cfl=(27)
+cfn=(176)
+calls=1 750
+1437 1
+
+fl=(27)
+fn=(39)
+cfl=(27)
+cfn=(178)
+calls=1 815
+1437 1
+
+fl=(27)
+fn=(183) _PyDict_LoadGlobal
+1524 1
+
+fl=(27)
+fn=(184) PyDict_SetDefault
+2867 1
+
+fl=(27)
+fn=(142)
+cfl=(70)
+cfn=(139)
+calls=1 408
+3045 1
+
+fl=(27)
+fn=(185) PyDict_Contains
+cfl=(27)
+cfn=(176)
+calls=1 725
+3185 1
+
+fl=(27)
+fn=(150)
+cfl=(27)
+cfn=(121)
+calls=1 1175
+3359 1
+
+fl=(27)
+fn=(186) _PyObjectDict_SetItem
+cfl=(27)
+cfn=(175)
+calls=1 609
+4373 1
+
+fl=(76) /home/ilan/minonda/conda-bld/python_1490230359189/work/Python-3.6.1/Objects/enumobject.c
+fn=(187) enum_next
+cfl=(72)
+cfn=(169)
+calls=1 63
+130 1
+
+fl=(76)
+fn=(187)
+146 1
+
+fl=(77) /home/ilan/minonda/conda-bld/python_1490230359189/work/Python-3.6.1/Objects/frameobject.c
+fn=(188) frame_dealloc
+432 1
+
+fl=(71)
+fn=(141)
+cfl=(70)
+cfn=(139)
+calls=1 408
+551 1
+
+fl=(71)
+fn=(160)
+cfl=(22)
+cfn=(189) PyEval_EvalCodeEx
+calls=3 4149
+604 3
+
+fl=(72)
+fn=(169)
+cfl=(37)
+cfn=(59)
+calls=2 1243
+63 2
+
+fl=(78) /home/ilan/minonda/conda-bld/python_1490230359189/work/Python-3.6.1/Objects/listobject.c
+fn=(190) PyList_New
+cfl=(25)
+cfn=(191) PyMem_Calloc
+calls=2 425
+173 2
+
+fl=(78)
+fn=(192) list_slice
+cfl=(78)
+cfn=(190)
+calls=1 173
+446 1
+
+fl=(78)
+fn=(193) list_subscript
+cfl=(78)
+cfn=(192)
+calls=1 446
+2432 1
+
+fl=(26)
+fn=(194) get_small_int[inline]
+41 1
+
+fl=(26)
+fn=(195) _PyLong_New
+184 1
+
+fl=(26)
+fn=(195)
+cfl=(25)
+cfn=(36)
+calls=1 1231
+196 1
+
+fl=(26)
+fn=(195)
+cfl=(25)
+cfn=(36)
+calls=1 1282
+196 1
+
+fl=(26)
+fn=(195)
+cfl=(25)
+cfn=(36)
+calls=2 1240
+196 2
+
+fl=(26)
+fn=(195)
+198 1
+
+fl=(26)
+fn=(157)
+232 1
+
+fl=(26)
+fn=(157)
+cfl=(26)
+cfn=(194)
+calls=1 41
+239 1
+
+fl=(26)
+fn=(157)
+cfl=(26)
+cfn=(195)
+calls=1 198
+254 1
+
+fl=(26)
+fn=(157)
+cfl=(26)
+cfn=(195)
+calls=1 196
+254 1
+
+fl=(26)
+fn=(157)
+cfl=(26)
+cfn=(195)
+calls=1 184
+284 1
+
+fl=(26)
+fn=(157)
+296 1
+
+fl=(26)
+fn=(38)
+cfl=(26)
+cfn=(195)
+calls=3 196
+315 3
+
+fl=(26)
+fn=(180)
+2997 2
+
+fl=(26)
+fn=(180)
+2998 1
+
+fl=(26)
+fn=(180)
+3003 1
+
+fl=(55)
+fn=(114)
+cfl=(52)
+cfn=(112)
+calls=7 20344
+98 7
+
+fl=(55)
+fn=(114)
+cfl=(79) /home/ilan/minonda/conda-bld/python_1490230359189/work/Python-3.6.1/Python/bltinmodule.c
+cfn=(196) builtin___import__
+calls=13 231
+98 13
+
+fl=(55)
+fn=(114)
+cfl=(39)
+cfn=(65)
+calls=1 2085
+98 1
+
+fl=(55)
+fn=(114)
+cfl=(80) /home/lemaitre/Documents/code/toolbox/scikit-learn/sklearn/neighbors/kd_tree.c
+cfn=(197) __pyx_pw_7sklearn_9neighbors_7kd_tree_10BinaryTree_19query
+calls=79 11221
+98 79
+
+fl=(55)
+fn=(114)
+cfl=(81) /home/ilan/minonda/conda-bld/python_1490230359189/work/Python-3.6.1/Python/clinic/import.c.h
+cfn=(198) _imp_create_dynamic
+calls=4 289
+114 4
+
+fl=(55)
+fn=(114)
+cfl=(82) /home/ilan/minonda/conda-bld/python_1490230359189/work/Python-3.6.1/Python/clinic/bltinmodule.c.h
+cfn=(199) builtin_exec
+calls=41 281
+114 41
+
+fl=(55)
+fn=(114)
+cfl=(59)
+cfn=(124)
+calls=1 181
+114 1
+
+fl=(55)
+fn=(200) _PyCFunction_FastCallDict
+cfl=(26)
+cfn=(157)
+calls=1 284
+192 1
+
+fl=(55)
+fn=(200)
+cfl=(31)
+cfn=(201) tp_new_wrapper
+calls=1 5697
+231 1
+
+fl=(55)
+fn=(200)
+cfl=(40)
+cfn=(70)
+calls=2 2127
+231 2
+
+fl=(55)
+fn=(200)
+cfl=(79)
+cfn=(202) builtin___build_class__
+calls=1 170
+231 1
+
+fl=(55)
+fn=(200)
+cfl=(83) /home/ilan/minonda/conda-bld/python_1490230359189/work/Python-3.6.1/Objects/unicodeobject.c
+cfn=(203) unicode_expandtabs
+calls=1 11560
+231 1
+
+fl=(55)
+fn=(200)
+cfl=(52)
+cfn=(109)
+calls=7 19750
+231 7
+
+fl=(55)
+fn=(200)
+cfl=(79)
+cfn=(202)
+calls=3 175
+231 3
+
+fl=(55)
+fn=(200)
+cfl=(52)
+cfn=(106)
+calls=17 19139
+231 17
+
+fl=(55)
+fn=(200)
+cfl=(49)
+cfn=(99)
+calls=1 4078
+231 1
+
+fl=(55)
+fn=(200)
+cfl=(82)
+cfn=(204) builtin_divmod
+calls=4 205
+234 4
+
+fl=(55)
+fn=(200)
+cfl=(56)
+cfn=(119)
+calls=1 2289
+234 1
+
+fl=(55)
+fn=(200)
+cfl=(56)
+cfn=(119)
+calls=1 2311
+234 1
+
+fl=(55)
+fn=(200)
+cfl=(82)
+cfn=(199)
+calls=227 281
+234 227
+
+fl=(55)
+fn=(200)
+cfl=(84) /home/ilan/minonda/conda-bld/python_1490230359189/work/Python-3.6.1/Python/marshal.c
+cfn=(205) marshal_loads
+calls=6 1765
+234 6
+
+fl=(55)
+fn=(200)
+cfl=(61)
+cfn=(126)
+calls=1 50
+251 1
+
+fl=(55)
+fn=(200)
+cfl=(61)
+cfn=(126)
+calls=1 46
+251 1
+
+fl=(55)
+fn=(200)
+cfl=(32)
+cfn=(115)
+calls=1 2178
+266 1
+
+fl=(55)
+fn=(206) _PyCFunction_FastCallKeywords
+cfl=(55)
+cfn=(200)
+calls=2 231
+295 2
+
+fl=(54)
+fn=(207) do_richcompare[inline]
+cfl=(73)
+cfn=(171)
+calls=1 1608
+671 1
+
+fl=(54)
+fn=(207)
+cfl=(33)
+cfn=(208) tuplerichcompare
+calls=1 629
+671 1
+
+fl=(54)
+fn=(207)
+cfl=(33)
+cfn=(208)
+calls=1 615
+671 1
+
+fl=(54)
+fn=(108)
+cfl=(54)
+cfn=(207)
+calls=3 671
+719 3
+
+fl=(54)
+fn=(177)
+cfl=(54)
+cfn=(108)
+calls=1 719
+741 1
+
+fl=(54)
+fn=(181)
+762 1
+
+fl=(54)
+fn=(209) PyObject_GetAttr
+881 1
+
+fl=(54)
+fn=(210) PyObject_SetAttr
+cfl=(54)
+cfn=(211) _PyObject_GenericSetAttrWithDict
+calls=1 1172
+932 1
+
+fl=(54)
+fn=(212) _PyObject_GenericGetAttrWithDict
+1058 1
+
+fl=(54)
+fn=(212)
+cfl=(30)
+cfn=(47)
+calls=1 1158
+1060 1
+
+fl=(54)
+fn=(211)
+cfl=(27)
+cfn=(186)
+calls=1 4373
+1172 1
+
+fl=(54)
+fn=(213) PyObject_IsTrue
+1229 1
+
+fl=(25)
+fn=(191)
+425 2
+
+fl=(25)
+fn=(214) address_in_range[inline]
+1200 1
+
+fl=(25)
+fn=(214)
+1201 3
+
+fl=(25)
+fn=(36)
+1231 1
+
+fl=(25)
+fn=(36)
+1240 2
+
+fl=(25)
+fn=(36)
+1282 1
+
+fl=(25)
+fn=(36)
+1284 1
+
+fl=(25)
+fn=(36)
+1395 2
+
+fl=(25)
+fn=(40)
+cfl=(25)
+cfn=(214)
+calls=1 1200
+1467 1
+
+fl=(25)
+fn=(40)
+cfl=(25)
+cfn=(214)
+calls=3 1201
+1467 3
+
+fl=(25)
+fn=(40)
+1479 1
+
+fl=(33)
+fn=(48)
+76 1
+
+fl=(33)
+fn=(48)
+80 1
+
+fl=(33)
+fn=(48)
+cfl=(70)
+cfn=(148)
+calls=2 1765
+114 2
+
+fl=(33)
+fn=(48)
+114 1
+
+fl=(33)
+fn=(48)
+130 1
+
+fl=(33)
+fn=(91)
+237 1
+
+fl=(33)
+fn=(91)
+243 1
+
+fl=(33)
+fn=(138)
+cfl=(70)
+cfn=(136)
+calls=1 372
+571 1
+
+fl=(33)
+fn=(208)
+615 1
+
+fl=(33)
+fn=(208)
+629 1
+
+fl=(33)
+fn=(215) tuple_new
+cfl=(62)
+cfn=(216) PyArg_ParseTupleAndKeywords
+calls=1 1362
+657 1
+
+fl=(33)
+fn=(217) tuplesubscript
+cfl=(32)
+cfn=(158)
+calls=1 1259
+710 1
+
+fl=(31)
+fn=(165)
+cfl=(31)
+cfn=(218) type_new
+calls=1 2719
+895 1
+
+fl=(31)
+fn=(165)
+cfl=(33)
+cfn=(215)
+calls=1 657
+895 1
+
+fl=(31)
+fn=(165)
+cfl=(31)
+cfn=(219) PyType_GenericAlloc
+calls=1 936
+895 1
+
+fl=(31)
+fn=(165)
+cfl=(31)
+cfn=(220) slot_tp_new
+calls=2 6405
+895 2
+
+fl=(31)
+fn=(165)
+cfl=(31)
+cfn=(218)
+calls=1 2706
+895 1
+
+fl=(31)
+fn=(165)
+cfl=(57)
+cfn=(122)
+calls=1 63
+915 1
+
+fl=(31)
+fn=(165)
+cfl=(31)
+cfn=(221) slot_tp_init
+calls=93 6380
+915 93
+
+fl=(31)
+fn=(219)
+cfl=(70)
+cfn=(146)
+calls=1 1726
+936 1
+
+fl=(31)
+fn=(45)
+1357 1
+
+fl=(31)
+fn=(45)
+1364 1
+
+fl=(31)
+fn=(45)
+1365 1
+
+fl=(31)
+fn=(222) mro_implementation
+1719 1
+
+fl=(31)
+fn=(223) mro_invoke[inline]
+cfl=(31)
+cfn=(222)
+calls=1 1719
+1863 1
+
+fl=(31)
+fn=(224) mro_internal
+cfl=(31)
+cfn=(223)
+calls=1 1863
+1914 1
+
+fl=(31)
+fn=(218)
+cfl=(31)
+cfn=(225) PyType_Ready
+calls=1 4981
+2706 1
+
+fl=(31)
+fn=(218)
+cfl=(31)
+cfn=(226) fixup_slot_dispatchers[inline]
+calls=1 6995
+2710 1
+
+fl=(31)
+fn=(218)
+cfl=(31)
+cfn=(227) init_subclass[inline]
+calls=1 7054
+2719 1
+
+fl=(31)
+fn=(228) _PyType_Lookup
+cfl=(27)
+cfn=(39)
+calls=1 1437
+2958 1
+
+fl=(31)
+fn=(225)
+cfl=(31)
+cfn=(224)
+calls=1 1914
+4981 1
+
+fl=(31)
+fn=(201)
+cfl=(31)
+cfn=(218)
+calls=1 2710
+5697 1
+
+fl=(31)
+fn=(164)
+cfl=(32)
+cfn=(64)
+calls=158 2246
+6167 158
+
+fl=(31)
+fn=(221)
+cfl=(32)
+cfn=(64)
+calls=93 2246
+6380 93
+
+fl=(31)
+fn=(220)
+cfl=(32)
+cfn=(159)
+calls=2 2358
+6405 2
+
+fl=(31)
+fn=(229) update_one_slot
+cfl=(31)
+cfn=(228)
+calls=1 2958
+6842 1
+
+fl=(31)
+fn=(226)
+cfl=(31)
+cfn=(229)
+calls=1 6842
+6995 1
+
+fl=(31)
+fn=(227)
+cfl=(32)
+cfn=(162)
+calls=1 2316
+7054 1
+
+fl=(83)
+fn=(203)
+11560 1
+
+fl=(83)
+fn=(230) unicode_format_arg_parse[inline]
+14386 1
+
+fl=(83)
+fn=(231) unicode_format_arg[inline]
+cfl=(83)
+cfn=(230)
+calls=1 14386
+14828 1
+
+fl=(83)
+fn=(232) PyUnicode_Format
+cfl=(83)
+cfn=(231)
+calls=1 14828
+14910 1
+
+fl=(83)
+fn=(233) PyUnicode_InternInPlace
+cfl=(27)
+cfn=(184)
+calls=1 2867
+15205 1
+
+fl=(85) /home/ilan/minonda/conda-bld/python_1490230359189/work/Python-3.6.1/Parser/parser.c
+fn=(234) classify[inline]
+145 1
+
+fl=(85)
+fn=(234)
+146 1
+
+fl=(85)
+fn=(235) PyParser_AddToken
+cfl=(85)
+cfn=(234)
+calls=1 145
+236 1
+
+fl=(85)
+fn=(235)
+cfl=(85)
+cfn=(234)
+calls=1 146
+236 1
+
+fl=(86) /home/ilan/minonda/conda-bld/python_1490230359189/work/Python-3.6.1/Parser/parsetok.c
+fn=(236) parsetok
+cfl=(85)
+cfn=(235)
+calls=2 236
+263 2
+
+fl=(79)
+fn=(202)
+cfl=(22)
+cfn=(189)
+calls=1 4149
+170 1
+
+fl=(79)
+fn=(202)
+cfl=(32)
+cfn=(162)
+calls=4 2316
+175 4
+
+fl=(79)
+fn=(196)
+cfl=(87) /home/ilan/minonda/conda-bld/python_1490230359189/work/Python-3.6.1/Python/import.c
+cfn=(237) PyImport_ImportModuleLevelObject
+calls=13 1592
+231 13
+
+fl=(79)
+fn=(238) builtin_divmod_impl[inline]
+cfl=(32)
+cfn=(155)
+calls=4 910
+823 4
+
+fl=(79)
+fn=(239) builtin_exec_impl[inline]
+cfl=(22)
+cfn=(240) PyEval_EvalCode
+calls=265 695
+974 265
+
+fl=(79)
+fn=(239)
+cfl=(88) /home/ilan/minonda/conda-bld/python_1490230359189/work/Python-3.6.1/Python/pythonrun.c
+cfn=(241) PyRun_StringFlags
+calls=2 902
+990 2
+
+fl=(79)
+fn=(239)
+cfl=(88)
+cfn=(241)
+calls=2 904
+990 2
+
+fl=(22)
+fn=(105)
+cfl=(89) /home/ilan/minonda/conda-bld/python_1490230359189/work/Python-3.6.1/Python/ceval_gil.h
+cfn=(242) drop_gil
+calls=2 187
+355 2
+
+fl=(22)
+fn=(30)
+362 1
+
+fl=(22)
+fn=(30)
+cfl=(89)
+cfn=(243) take_gil
+calls=1 258
+368 1
+
+fl=(22)
+fn=(30)
+370 1
+
+fl=(22)
+fn=(240)
+cfl=(22)
+cfn=(189)
+calls=266 4149
+695 266
+
+fl=(22)
+fn=(244) _PyEval_EvalFrameDefault
+1228 1
+
+fl=(22)
+fn=(244)
+1232 1
+
+fl=(22)
+fn=(244)
+1239 2
+
+fl=(22)
+fn=(244)
+cfl=(25)
+cfn=(40)
+calls=1 1467
+1254 1
+
+fl=(22)
+fn=(244)
+1255 2
+
+fl=(22)
+fn=(244)
+cfl=(32)
+cfn=(156)
+calls=19 946
+1364 19
+
+fl=(22)
+fn=(244)
+cfl=(23)
+cfn=(33)
+calls=3 381
+1366 3
+
+fl=(22)
+fn=(244)
+cfl=(25)
+cfn=(40)
+calls=1 1479
+1366 1
+
+fl=(22)
+fn=(244)
+cfl=(83)
+cfn=(232)
+calls=1 14910
+1417 1
+
+fl=(22)
+fn=(244)
+cfl=(32)
+cfn=(154)
+calls=16 909
+1452 16
+
+fl=(22)
+fn=(244)
+cfl=(23)
+cfn=(33)
+calls=1 381
+1453 1
+
+fl=(22)
+fn=(244)
+1463 1
+
+fl=(22)
+fn=(244)
+cfl=(78)
+cfn=(193)
+calls=1 2432
+1464 1
+
+fl=(22)
+fn=(244)
+cfl=(33)
+cfn=(217)
+calls=1 710
+1464 1
+
+fl=(22)
+fn=(244)
+cfl=(37)
+cfn=(61)
+calls=2 1534
+1464 2
+
+fl=(22)
+fn=(244)
+cfl=(37)
+cfn=(61)
+calls=6 1486
+1464 6
+
+fl=(22)
+fn=(244)
+cfl=(37)
+cfn=(61)
+calls=1 1453
+1464 1
+
+fl=(22)
+fn=(244)
+cfl=(37)
+cfn=(62)
+calls=8 1960
+1727 8
+
+fl=(22)
+fn=(244)
+cfl=(37)
+cfn=(62)
+calls=1 2119
+1727 1
+
+fl=(22)
+fn=(244)
+cfl=(37)
+cfn=(62)
+calls=3 1949
+1727 3
+
+fl=(22)
+fn=(244)
+cfl=(23)
+cfn=(33)
+calls=3 381
+1728 3
+
+fl=(22)
+fn=(244)
+1730 1
+
+fl=(22)
+fn=(244)
+cfl=(33)
+cfn=(91)
+calls=1 243
+2230 1
+
+fl=(22)
+fn=(244)
+cfl=(54)
+cfn=(210)
+calls=1 932
+2255 1
+
+fl=(22)
+fn=(244)
+2351 1
+
+fl=(22)
+fn=(244)
+cfl=(27)
+cfn=(183)
+calls=1 1524
+2354 1
+
+fl=(22)
+fn=(244)
+cfl=(78)
+cfn=(190)
+calls=1 173
+2509 1
+
+fl=(22)
+fn=(244)
+cfl=(54)
+cfn=(209)
+calls=1 881
+2821 1
+
+fl=(22)
+fn=(244)
+cfl=(54)
+cfn=(212)
+calls=1 1058
+2821 1
+
+fl=(22)
+fn=(244)
+cfl=(54)
+cfn=(212)
+calls=1 1060
+2821 1
+
+fl=(22)
+fn=(244)
+cfl=(22)
+cfn=(245) cmp_outcome[inline]
+calls=1 5117
+2832 1
+
+fl=(22)
+fn=(244)
+cfl=(22)
+cfn=(246) import_name[inline]
+calls=28 5176
+2848 28
+
+fl=(22)
+fn=(244)
+cfl=(54)
+cfn=(213)
+calls=1 1229
+2909 1
+
+fl=(22)
+fn=(244)
+3010 1
+
+fl=(22)
+fn=(244)
+cfl=(76)
+cfn=(187)
+calls=1 146
+3060 1
+
+fl=(22)
+fn=(244)
+cfl=(76)
+cfn=(187)
+calls=1 130
+3060 1
+
+fl=(22)
+fn=(244)
+cfl=(32)
+cfn=(152)
+calls=1 2811
+3242 1
+
+fl=(22)
+fn=(244)
+cfl=(22)
+cfn=(247) call_function
+calls=1 4781
+3284 1
+
+fl=(22)
+fn=(244)
+cfl=(22)
+cfn=(247)
+calls=245 4822
+3284 245
+
+fl=(22)
+fn=(244)
+cfl=(22)
+cfn=(247)
+calls=1 4836
+3284 1
+
+fl=(22)
+fn=(244)
+cfl=(22)
+cfn=(247)
+calls=1150 4819
+3284 1150
+
+fl=(22)
+fn=(244)
+cfl=(22)
+cfn=(247)
+calls=271 4798
+3284 271
+
+fl=(22)
+fn=(244)
+cfl=(22)
+cfn=(247)
+calls=137 4819
+3300 137
+
+fl=(22)
+fn=(244)
+cfl=(22)
+cfn=(247)
+calls=9 4822
+3300 9
+
+fl=(22)
+fn=(244)
+cfl=(22)
+cfn=(247)
+calls=2 4798
+3300 2
+
+fl=(22)
+fn=(244)
+cfl=(22)
+cfn=(248) do_call_core[inline]
+calls=2 5067
+3366 2
+
+fl=(22)
+fn=(244)
+cfl=(22)
+cfn=(248)
+calls=138 5063
+3366 138
+
+fl=(22)
+fn=(249) _PyEval_EvalCodeWithName
+cfl=(22)
+cfn=(244)
+calls=1 1417
+4128 1
+
+fl=(22)
+fn=(249)
+cfl=(22)
+cfn=(244)
+calls=1 2255
+4128 1
+
+fl=(22)
+fn=(249)
+cfl=(22)
+cfn=(244)
+calls=11 1464
+4128 11
+
+fl=(22)
+fn=(249)
+cfl=(22)
+cfn=(244)
+calls=1 2509
+4128 1
+
+fl=(22)
+fn=(249)
+cfl=(22)
+cfn=(244)
+calls=1 2351
+4128 1
+
+fl=(22)
+fn=(249)
+cfl=(22)
+cfn=(244)
+calls=24 3300
+4128 24
+
+fl=(22)
+fn=(249)
+cfl=(22)
+cfn=(244)
+calls=28 2848
+4128 28
+
+fl=(22)
+fn=(249)
+cfl=(22)
+cfn=(244)
+calls=1 1239
+4128 1
+
+fl=(22)
+fn=(249)
+cfl=(22)
+cfn=(244)
+calls=1 2354
+4128 1
+
+fl=(22)
+fn=(249)
+cfl=(22)
+cfn=(244)
+calls=1 1232
+4128 1
+
+fl=(22)
+fn=(249)
+cfl=(22)
+cfn=(244)
+calls=1 2909
+4128 1
+
+fl=(22)
+fn=(249)
+cfl=(22)
+cfn=(244)
+calls=1 1228
+4128 1
+
+fl=(22)
+fn=(249)
+cfl=(22)
+cfn=(244)
+calls=12 1727
+4128 12
+
+fl=(22)
+fn=(249)
+cfl=(22)
+cfn=(244)
+calls=16 1452
+4128 16
+
+fl=(22)
+fn=(249)
+cfl=(22)
+cfn=(244)
+calls=3 2821
+4128 3
+
+fl=(22)
+fn=(249)
+cfl=(22)
+cfn=(244)
+calls=1 1730
+4128 1
+
+fl=(22)
+fn=(249)
+cfl=(22)
+cfn=(244)
+calls=138 3366
+4128 138
+
+fl=(22)
+fn=(249)
+cfl=(22)
+cfn=(244)
+calls=2 3060
+4128 2
+
+fl=(22)
+fn=(249)
+cfl=(22)
+cfn=(244)
+calls=1 1463
+4128 1
+
+fl=(22)
+fn=(249)
+cfl=(22)
+cfn=(244)
+calls=1 1453
+4128 1
+
+fl=(22)
+fn=(249)
+cfl=(22)
+cfn=(244)
+calls=1 1254
+4128 1
+
+fl=(22)
+fn=(249)
+cfl=(22)
+cfn=(244)
+calls=581 3284
+4128 581
+
+fl=(22)
+fn=(249)
+cfl=(22)
+cfn=(244)
+calls=4 1366
+4128 4
+
+fl=(22)
+fn=(249)
+cfl=(22)
+cfn=(244)
+calls=19 1364
+4128 19
+
+fl=(22)
+fn=(249)
+cfl=(22)
+cfn=(244)
+calls=1 2230
+4128 1
+
+fl=(22)
+fn=(249)
+cfl=(22)
+cfn=(244)
+calls=2 1255
+4128 2
+
+fl=(22)
+fn=(249)
+cfl=(22)
+cfn=(244)
+calls=1 3010
+4128 1
+
+fl=(22)
+fn=(249)
+cfl=(22)
+cfn=(244)
+calls=3 1728
+4128 3
+
+fl=(22)
+fn=(249)
+cfl=(77)
+cfn=(188)
+calls=1 432
+4139 1
+
+fl=(22)
+fn=(189)
+cfl=(22)
+cfn=(249)
+calls=272 4128
+4149 272
+
+fl=(22)
+fn=(247)
+4781 1
+
+fl=(22)
+fn=(247)
+cfl=(55)
+cfn=(206)
+calls=2 295
+4798 2
+
+fl=(22)
+fn=(247)
+cfl=(55)
+cfn=(200)
+calls=1 192
+4798 1
+
+fl=(22)
+fn=(247)
+cfl=(55)
+cfn=(200)
+calls=238 234
+4798 238
+
+fl=(22)
+fn=(247)
+cfl=(55)
+cfn=(200)
+calls=1 266
+4798 1
+
+fl=(22)
+fn=(247)
+cfl=(55)
+cfn=(200)
+calls=31 231
+4798 31
+
+fl=(22)
+fn=(247)
+cfl=(55)
+cfn=(200)
+calls=2 251
+4798 2
+
+fl=(22)
+fn=(247)
+cfl=(22)
+cfn=(250) fast_function[inline]
+calls=864 4915
+4819 864
+
+fl=(22)
+fn=(247)
+cfl=(22)
+cfn=(250)
+calls=519 4939
+4819 519
+
+fl=(22)
+fn=(247)
+cfl=(32)
+cfn=(162)
+calls=244 2316
+4822 244
+
+fl=(22)
+fn=(247)
+cfl=(32)
+cfn=(162)
+calls=1 2311
+4822 1
+
+fl=(22)
+fn=(247)
+cfl=(32)
+cfn=(166)
+calls=9 2480
+4822 9
+
+fl=(22)
+fn=(247)
+4836 1
+
+fl=(22)
+fn=(251) _PyFunction_FastCall
+cfl=(22)
+cfn=(244)
+calls=1 3242
+4880 1
+
+fl=(22)
+fn=(251)
+cfl=(22)
+cfn=(244)
+calls=1 2832
+4880 1
+
+fl=(22)
+fn=(251)
+cfl=(22)
+cfn=(244)
+calls=1067 3284
+4880 1067
+
+fl=(22)
+fn=(251)
+cfl=(22)
+cfn=(244)
+calls=117 3300
+4880 117
+
+fl=(22)
+fn=(251)
+cfl=(22)
+cfn=(244)
+calls=1 1239
+4880 1
+
+fl=(22)
+fn=(250)
+cfl=(22)
+cfn=(251)
+calls=872 4880
+4915 872
+
+fl=(22)
+fn=(250)
+cfl=(22)
+cfn=(249)
+calls=550 4128
+4939 550
+
+fl=(22)
+fn=(250)
+cfl=(22)
+cfn=(249)
+calls=1 4139
+4939 1
+
+fl=(22)
+fn=(163)
+cfl=(22)
+cfn=(251)
+calls=292 4880
+4982 292
+
+fl=(22)
+fn=(163)
+cfl=(22)
+cfn=(249)
+calls=18 4128
+5031 18
+
+fl=(22)
+fn=(248)
+cfl=(55)
+cfn=(114)
+calls=93 98
+5063 93
+
+fl=(22)
+fn=(248)
+cfl=(55)
+cfn=(114)
+calls=45 114
+5063 45
+
+fl=(22)
+fn=(248)
+cfl=(32)
+cfn=(64)
+calls=2 2246
+5067 2
+
+fl=(22)
+fn=(245)
+cfl=(27)
+cfn=(185)
+calls=1 3185
+5117 1
+
+fl=(22)
+fn=(246)
+cfl=(87)
+cfn=(237)
+calls=1 1535
+5176 1
+
+fl=(22)
+fn=(246)
+cfl=(87)
+cfn=(237)
+calls=4 1658
+5176 4
+
+fl=(22)
+fn=(246)
+cfl=(87)
+cfn=(237)
+calls=25 1592
+5176 25
+
+fl=(89)
+fn=(242)
+cfl=(13)
+cfn=(17)
+calls=1 45
+187 1
+
+fl=(89)
+fn=(242)
+cfl=(13)
+cfn=(17)
+calls=1 126
+187 1
+
+fl=(89)
+fn=(243)
+cfl=(15)
+cfn=(21)
+calls=1 324
+258 1
+
+fl=(82)
+fn=(204)
+cfl=(79)
+cfn=(238)
+calls=4 823
+205 4
+
+fl=(82)
+fn=(199)
+cfl=(79)
+cfn=(239)
+calls=265 974
+281 265
+
+fl=(82)
+fn=(199)
+cfl=(79)
+cfn=(239)
+calls=4 990
+281 4
+
+fl=(81)
+fn=(198)
+cfl=(87)
+cfn=(252) _imp_create_dynamic_impl[inline]
+calls=4 2004
+289 4
+
+fl=(90) /home/ilan/minonda/conda-bld/python_1490230359189/work/Python-3.6.1/Python/compile.c
+fn=(253) PyAST_CompileObject
+cfl=(91) /home/ilan/minonda/conda-bld/python_1490230359189/work/Python-3.6.1/Python/symtable.c
+cfn=(254) PySymtable_BuildObject
+calls=1 282
+334 1
+
+fl=(90)
+fn=(253)
+cfl=(90)
+cfn=(255) compiler_mod[inline]
+calls=1 1483
+341 1
+
+fl=(90)
+fn=(256) compiler_body
+cfl=(90)
+cfn=(257) compiler_function
+calls=1 1886
+1463 1
+
+fl=(90)
+fn=(255)
+cfl=(90)
+cfn=(256)
+calls=1 1463
+1483 1
+
+fl=(90)
+fn=(257)
+cfl=(90)
+cfn=(258) assemble
+calls=1 5368
+1886 1
+
+fl=(90)
+fn=(259) compute_code_flags[inline]
+5195 1
+
+fl=(90)
+fn=(260) makecode[inline]
+cfl=(90)
+cfn=(259)
+calls=1 5195
+5246 1
+
+fl=(90)
+fn=(258)
+cfl=(90)
+cfn=(260)
+calls=1 5246
+5368 1
+
+fl=(28)
+fn=(41)
+163 1
+
+fl=(28)
+fn=(41)
+cfl=(75)
+cfn=(182)
+calls=2 511
+164 2
+
+fl=(62)
+fn=(216)
+cfl=(62)
+cfn=(261) vgetargskeywords
+calls=1 1591
+1362 1
+
+fl=(62)
+fn=(127)
+1509 1
+
+fl=(62)
+fn=(261)
+1591 1
+
+fl=(87)
+fn=(237)
+cfl=(27)
+cfn=(39)
+calls=1 1437
+1535 1
+
+fl=(87)
+fn=(237)
+cfl=(32)
+cfn=(168)
+calls=40 2780
+1592 40
+
+fl=(87)
+fn=(237)
+cfl=(32)
+cfn=(168)
+calls=4 2780
+1658 4
+
+fl=(87)
+fn=(252)
+cfl=(66)
+cfn=(132)
+calls=3 154
+2004 3
+
+fl=(87)
+fn=(252)
+cfl=(66)
+cfn=(132)
+calls=1 124
+2004 1
+
+fl=(84)
+fn=(262) r_object
+cfl=(83)
+cfn=(233)
+calls=1 15205
+1168 1
+
+fl=(84)
+fn=(262)
+cfl=(33)
+cfn=(48)
+calls=1 130
+1188 1
+
+fl=(84)
+fn=(262)
+cfl=(33)
+cfn=(48)
+calls=2 114
+1188 2
+
+fl=(84)
+fn=(262)
+cfl=(84)
+cfn=(262)
+calls=2 1368
+1194 2
+
+fl=(84)
+fn=(262)
+cfl=(84)
+cfn=(262)
+calls=1 1188
+1194 1
+
+fl=(84)
+fn=(262)
+cfl=(84)
+cfn=(262)
+calls=1 1405
+1194 1
+
+fl=(84)
+fn=(262)
+cfl=(84)
+cfn=(262)
+calls=4 1365
+1194 4
+
+fl=(84)
+fn=(262)
+cfl=(84)
+cfn=(262)
+calls=2 1371
+1194 2
+
+fl=(84)
+fn=(262)
+cfl=(84)
+cfn=(262)
+calls=1 1436
+1194 1
+
+fl=(84)
+fn=(262)
+cfl=(84)
+cfn=(262)
+calls=1 1168
+1194 1
+
+fl=(84)
+fn=(262)
+cfl=(84)
+cfn=(262)
+calls=10 1194
+1365 10
+
+fl=(84)
+fn=(262)
+cfl=(84)
+cfn=(262)
+calls=1 1188
+1368 1
+
+fl=(84)
+fn=(262)
+cfl=(84)
+cfn=(262)
+calls=1 1194
+1368 1
+
+fl=(84)
+fn=(262)
+cfl=(84)
+cfn=(262)
+calls=1 1194
+1371 1
+
+fl=(84)
+fn=(262)
+cfl=(84)
+cfn=(262)
+calls=1 1188
+1371 1
+
+fl=(84)
+fn=(262)
+cfl=(74)
+cfn=(173)
+calls=1 138
+1405 1
+
+fl=(84)
+fn=(262)
+1436 1
+
+fl=(84)
+fn=(263) read_object[inline]
+cfl=(84)
+cfn=(262)
+calls=6 1365
+1463 6
+
+fl=(84)
+fn=(205)
+cfl=(84)
+cfn=(263)
+calls=6 1463
+1765 6
+
+fl=(50)
+fn=(264) countformat[inline]
+21 1
+
+fl=(50)
+fn=(265) do_mktuple
+cfl=(50)
+cfn=(266) do_mkvalue
+calls=1 236
+196 1
+
+fl=(50)
+fn=(266)
+cfl=(26)
+cfn=(157)
+calls=1 232
+236 1
+
+fl=(50)
+fn=(90)
+cfl=(50)
+cfn=(267) va_build_value
+calls=1 468
+436 1
+
+fl=(50)
+fn=(90)
+cfl=(50)
+cfn=(267)
+calls=1 482
+436 1
+
+fl=(50)
+fn=(267)
+cfl=(50)
+cfn=(264)
+calls=1 21
+468 1
+
+fl=(50)
+fn=(267)
+cfl=(50)
+cfn=(265)
+calls=1 196
+482 1
+
+fl=(75)
+fn=(182)
+511 2
+
+fl=(75)
+fn=(182)
+512 1
+
+fl=(88)
+fn=(241)
+cfl=(88)
+cfn=(268) PyParser_ASTFromStringObject
+calls=2 1115
+902 2
+
+fl=(88)
+fn=(241)
+cfl=(88)
+cfn=(269) run_mod[inline]
+calls=2 977
+904 2
+
+fl=(88)
+fn=(269)
+cfl=(90)
+cfn=(253)
+calls=1 341
+977 1
+
+fl=(88)
+fn=(269)
+cfl=(90)
+cfn=(253)
+calls=1 334
+977 1
+
+fl=(88)
+fn=(268)
+cfl=(86)
+cfn=(236)
+calls=2 263
+1115 2
+
+fl=(91)
+fn=(254)
+cfl=(91)
+cfn=(270) symtable_visit_stmt
+calls=1 1170
+282 1
+
+fl=(91)
+fn=(271) symtable_add_def
+cfl=(27)
+cfn=(39)
+calls=1 1425
+989 1
+
+fl=(91)
+fn=(270)
+cfl=(91)
+cfn=(270)
+calls=1 1186
+1170 1
+
+fl=(91)
+fn=(270)
+cfl=(91)
+cfn=(272) symtable_visit_expr
+calls=1 1500
+1186 1
+
+fl=(91)
+fn=(272)
+cfl=(91)
+cfn=(271)
+calls=1 989
+1500 1
+
+fl=(60)
+fn=(125)
+cfl=(16)
+cfn=(22)
+calls=1 56
+394 1
+
+fl=(69)
+fn=(135)
+cfl=(69)
+cfn=(273) __Pyx_Import.clone.9
+calls=1 10035
+8455 1
+
+fl=(69)
+fn=(273)
+cfl=(87)
+cfn=(237)
+calls=1 1592
+10035 1
+
+fl=(67)
+fn=(133)
+cfl=(67)
+cfn=(274) __pyx_FusedFunction_New[inline]
+calls=1 23716
+20552 1
+
+fl=(67)
+fn=(275) __Pyx_CyFunction_New
+cfl=(70)
+cfn=(147)
+calls=1 1748
+23432 1
+
+fl=(67)
+fn=(274)
+cfl=(67)
+cfn=(275)
+calls=1 23432
+23716 1
+
+fl=(80)
+fn=(276) __pyx_f_7sklearn_9neighbors_7kd_tree_10BinaryTree_rdist[inline]
+cfl=(80)
+cfn=(277) __pyx_f_7sklearn_9neighbors_12dist_metrics_euclidean_rdist[inline]
+calls=42 26151
+10755 42
+
+fl=(80)
+fn=(276)
+10755 1
+
+fl=(80)
+fn=(276)
+cfl=(80)
+cfn=(277)
+calls=4 26170
+10755 4
+
+fl=(80)
+fn=(276)
+cfl=(80)
+cfn=(277)
+calls=1 26161
+10755 1
+
+fl=(80)
+fn=(197)
+cfl=(80)
+cfn=(278) __pyx_pf_7sklearn_9neighbors_7kd_tree_10BinaryTree_18query
+calls=79 11874
+11221 79
+
+fl=(80)
+fn=(278)
+cfl=(80)
+cfn=(279) __pyx_f_7sklearn_9neighbors_7kd_tree_10BinaryTree__query_single_depthfirst
+calls=27 16144
+11874 27
+
+fl=(80)
+fn=(278)
+cfl=(80)
+cfn=(279)
+calls=18 16135
+11874 18
+
+fl=(80)
+fn=(278)
+cfl=(80)
+cfn=(279)
+calls=17 16107
+11874 17
+
+fl=(80)
+fn=(278)
+cfl=(80)
+cfn=(279)
+calls=17 16098
+11874 17
+
+fl=(80)
+fn=(279)
+15853 2
+
+fl=(80)
+fn=(279)
+15956 1
+
+fl=(80)
+fn=(279)
+cfl=(80)
+cfn=(276)
+calls=48 10755
+15988 48
+
+fl=(80)
+fn=(279)
+15998 3
+
+fl=(80)
+fn=(279)
+cfl=(80)
+cfn=(280) __pyx_f_7sklearn_9neighbors_7kd_tree_min_rdist
+calls=3 22171
+16068 3
+
+fl=(80)
+fn=(279)
+cfl=(80)
+cfn=(280)
+calls=1 22149
+16068 1
+
+fl=(80)
+fn=(279)
+cfl=(80)
+cfn=(280)
+calls=7 22180
+16068 7
+
+fl=(80)
+fn=(279)
+cfl=(80)
+cfn=(280)
+calls=1 22162
+16068 1
+
+fl=(80)
+fn=(279)
+16078 1
+
+fl=(80)
+fn=(279)
+cfl=(80)
+cfn=(280)
+calls=1 22149
+16078 1
+
+fl=(80)
+fn=(279)
+cfl=(80)
+cfn=(280)
+calls=1 22145
+16078 1
+
+fl=(80)
+fn=(279)
+cfl=(80)
+cfn=(280)
+calls=9 22180
+16078 9
+
+fl=(80)
+fn=(279)
+cfl=(80)
+cfn=(280)
+calls=1 22171
+16078 1
+
+fl=(80)
+fn=(279)
+cfl=(80)
+cfn=(279)
+calls=27 16098
+16098 27
+
+fl=(80)
+fn=(279)
+cfl=(80)
+cfn=(279)
+calls=4 16068
+16098 4
+
+fl=(80)
+fn=(279)
+cfl=(80)
+cfn=(279)
+calls=1 15998
+16098 1
+
+fl=(80)
+fn=(279)
+cfl=(80)
+cfn=(279)
+calls=24 16135
+16098 24
+
+fl=(80)
+fn=(279)
+cfl=(80)
+cfn=(279)
+calls=1 15956
+16098 1
+
+fl=(80)
+fn=(279)
+cfl=(80)
+cfn=(279)
+calls=37 16144
+16098 37
+
+fl=(80)
+fn=(279)
+cfl=(80)
+cfn=(279)
+calls=2 16078
+16098 2
+
+fl=(80)
+fn=(279)
+cfl=(80)
+cfn=(279)
+calls=20 16107
+16098 20
+
+fl=(80)
+fn=(279)
+cfl=(80)
+cfn=(279)
+calls=9 15988
+16098 9
+
+fl=(80)
+fn=(279)
+cfl=(80)
+cfn=(279)
+calls=21 16144
+16107 21
+
+fl=(80)
+fn=(279)
+cfl=(80)
+cfn=(279)
+calls=2 16068
+16107 2
+
+fl=(80)
+fn=(279)
+cfl=(80)
+cfn=(279)
+calls=31 16107
+16107 31
+
+fl=(80)
+fn=(279)
+cfl=(80)
+cfn=(279)
+calls=1 16078
+16107 1
+
+fl=(80)
+fn=(279)
+cfl=(80)
+cfn=(279)
+calls=22 16098
+16107 22
+
+fl=(80)
+fn=(279)
+cfl=(80)
+cfn=(279)
+calls=15 15988
+16107 15
+
+fl=(80)
+fn=(279)
+cfl=(80)
+cfn=(279)
+calls=22 16135
+16107 22
+
+fl=(80)
+fn=(279)
+cfl=(80)
+cfn=(279)
+calls=19 16107
+16135 19
+
+fl=(80)
+fn=(279)
+cfl=(80)
+cfn=(279)
+calls=2 15853
+16135 2
+
+fl=(80)
+fn=(279)
+cfl=(80)
+cfn=(279)
+calls=4 16078
+16135 4
+
+fl=(80)
+fn=(279)
+cfl=(80)
+cfn=(279)
+calls=26 16098
+16135 26
+
+fl=(80)
+fn=(279)
+cfl=(80)
+cfn=(279)
+calls=1 15998
+16135 1
+
+fl=(80)
+fn=(279)
+cfl=(80)
+cfn=(279)
+calls=18 16135
+16135 18
+
+fl=(80)
+fn=(279)
+cfl=(80)
+cfn=(279)
+calls=11 15988
+16135 11
+
+fl=(80)
+fn=(279)
+cfl=(80)
+cfn=(279)
+calls=24 16144
+16135 24
+
+fl=(80)
+fn=(279)
+cfl=(80)
+cfn=(279)
+calls=5 16068
+16135 5
+
+fl=(80)
+fn=(279)
+cfl=(80)
+cfn=(279)
+calls=28 16135
+16144 28
+
+fl=(80)
+fn=(279)
+cfl=(80)
+cfn=(279)
+calls=1 15998
+16144 1
+
+fl=(80)
+fn=(279)
+cfl=(80)
+cfn=(279)
+calls=6 16078
+16144 6
+
+fl=(80)
+fn=(279)
+cfl=(80)
+cfn=(279)
+calls=13 15988
+16144 13
+
+fl=(80)
+fn=(279)
+cfl=(80)
+cfn=(279)
+calls=27 16107
+16144 27
+
+fl=(80)
+fn=(279)
+cfl=(80)
+cfn=(279)
+calls=33 16098
+16144 33
+
+fl=(80)
+fn=(279)
+cfl=(80)
+cfn=(279)
+calls=34 16144
+16144 34
+
+fl=(80)
+fn=(279)
+cfl=(80)
+cfn=(279)
+calls=1 16068
+16144 1
+
+fl=(80)
+fn=(280)
+22145 1
+
+fl=(80)
+fn=(280)
+22149 2
+
+fl=(80)
+fn=(280)
+22162 1
+
+fl=(80)
+fn=(280)
+22171 4
+
+fl=(80)
+fn=(280)
+cfl=(12)
+cfn=(16)
+calls=4 27
+22180 4
+
+fl=(80)
+fn=(280)
+cfl=(12)
+cfn=(16)
+calls=4 73
+22180 4
+
+fl=(80)
+fn=(280)
+cfl=(12)
+cfn=(16)
+calls=1 59
+22180 1
+
+fl=(80)
+fn=(280)
+22180 4
+
+fl=(80)
+fn=(280)
+cfl=(12)
+cfn=(16)
+calls=3 28
+22180 3
+
+fl=(80)
+fn=(277)
+26151 42
+
+fl=(80)
+fn=(277)
+26161 1
+
+fl=(80)
+fn=(277)
+26170 4
+
+fl=(64)
+fn=(130)
+cfl=(7)
+cfn=(11)
+calls=1 35
+436 1
+
+fl=(48)
+fn=(84)
+148 1
+
+fl=??
+fn=(19)
+0 17
+
+fl=??
+fn=(281) _Init_MKL_Loader[inline]
+cfl=(5)
+cfn=(6)
+calls=1 61
+0 1
+
+fl=??
+fn=(10)
+cfl=??
+cfn=(281)
+calls=1 0
+0 1
+
+fl=??
+fn=(282) _INTERNAL_25_______src_kmp_barrier_cpp_1d20fae8::__kmp_hyper_barrier_release[inline]
+cfl=??
+cfn=(282)
+calls=56 0
+0 56
+
+fl=??
+fn=(283) _init
+0 5
+
+fl=??
+fn=(282)
+0 14
+
+fl=??
+fn=(19)
+cfl=??
+cfn=(19)
+calls=53 0
+0 53
+
